@@ -2,15 +2,21 @@
   <div>
     <h1>Create Users</h1>
     <form v-on:submit.prevent="createUser">
-      <p>namebook: <input type="text" v-model="user.name" /></p>
-      <p>type: <input type="text" v-model="user.lastname" /></p>
+      <p>title: <input type="text" v-model="user.title" /></p>
+      <p>author: <input type="text" v-model="user.author" /></p>
+      <p>total_page: <input type="text" v-model="user.total_page" /></p>
+      <p>publisher": "Chula Book: <input type="text" v-model="user.publisher" /></p>
+      <p>category": "Text Book="text" v-model="user.category" /></p>
       <p>price: <input type="text" v-model="user.price" /></p>
       <p><button type="submit">create user</button></p>
     </form>
     <hr />
     <div>
-      <p>name: {{ user.name }}</p>
-      <p>lastname: {{ user.lastname }}</p> 
+      <p>title: {{ user.title }}</p>
+      <p>author: {{ user.author }}</p> 
+      <p>total_page: {{ user.total_page }}</p>
+      <p>publisher: {{ user.publisher }}</p>
+      <p>category: {{ user.category }}</p> 
       <p>price: {{ user.price }}</p>
     </div>
   </div>
