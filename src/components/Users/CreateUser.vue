@@ -11,7 +11,7 @@
     <hr />
     <div>
       <p>name: {{ user.name }}</p>
-      <p>lastname: {{ user.lastname }}</p>
+      <p>lastname: {{ user.lastname }}</p> 
       <p>email: {{ user.email }}</p>
       <p>password: {{ user.password }}</p>
     </div>
